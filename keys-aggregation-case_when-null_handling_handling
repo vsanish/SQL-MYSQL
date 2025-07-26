@@ -1,0 +1,32 @@
+
+Minimal Key
+Natural Key , Surrogate Key 
+Super Key , Candidate Key 
+
+Aggregation , NOT IN , AND , OR , IN , ALAIS (AS),
+Where(used before ordery by key and not in aggregation function),
+
+ORDER BY(to sort the results of a query),
+
+HAVING(used after the order by key and only in aggregation function),
+
+CASE WHEN(it is like if else condition),
+
+
+NULL handing,
+-> coalesce ==>replace with actual not NULL Value
+
+SRTING HANDLING
+length,
+upper,
+lower,
+concat,
+substring,
+trim(lefttrim[LTRIM])(tighttrim[RTRIM]),
+padding(leftpadding[LPAD],rightpadding[RPAD])
+Replace,
+Instr(INTSTRING),
+right,left,
+reverse,
+Format,
+

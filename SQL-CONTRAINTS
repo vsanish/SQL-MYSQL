@@ -1,0 +1,20 @@
+SQL - CONTRAINTS and COMMANDS
+=============================
+
+
+==>topics in sql: ALTER Column and TABLE column
+=>Where --command
+==>SQL Constraints
+NOT NULL,
+UNIQUE ,(Null, avoid duplicates)
+PRIMARY KEY,(not null, avoid duplicates)
+FOREIGN KEY,
+CHECK,
+DEFAULT
+
+foreign key  methods to delete
+delete method 
+DELETE CASCADE( permantly delete and not to do in every tables)--HARD DELETE,
+SOFT DELETE,(it delete but it stores as)
+-->
+

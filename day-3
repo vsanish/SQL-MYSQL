@@ -32,7 +32,10 @@ insert into departments values (101,'AI&DS');
 insert into departments values (102,'Cyber suc');
 insert into departments values (104,'IT');
 
+for inner join => select e.emp_id, e.name, d.dept_name from employees e inner join departments d on e.dept_id = d.dept_id; 
+for left join => select e.emp_id, e.name, d.dept_name from employees e left join departments d on e.dept_id = d.dept_id; 
+for right join=> select e.emp_id, e.name, d.dept_name from employees e right  join departments d on e.dept_id = d.dept_id; 
 
 
-select e.emp_id, e.name, d.dept_name from employees e full outer join departments d on e.dept_id = d.dept_id; 
+for full outer join => select e.emp_id, e.name, d.dept_name from employees e full outer join departments d on e.dept_id = d.dept_id; 
 

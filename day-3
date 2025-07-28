@@ -9,5 +9,30 @@ Joints
 3.right joint,
 4.full out joint,
 5.Self joint
-
+--------------------------------------------------------------------------------
   
+create table employees( 
+  emp_id integer primary key,
+  name text,
+  dept_id integer
+);
+
+create table departments(
+  dept_id integer primary key,
+  dept_name text
+);
+
+
+insert into employees values (1,'Anish',101);
+insert into employees values (2,'martin',102);
+insert into employees values (3,'danish',103);
+insert into employees values (4,'ravi',null);
+
+insert into departments values (101,'AI&DS');
+insert into departments values (102,'Cyber suc');
+insert into departments values (104,'IT');
+
+
+
+select e.emp_id, e.name, d.dept_name from employees e full outer join departments d on e.dept_id = d.dept_id; 
+

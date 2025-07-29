@@ -1,0 +1,36 @@
+
+WINDOW FUNCTIONS  - Keyword is <function name> OVER
+=====================
+It performs a calculation across a set of rows related to the current row,
+
+without changing the number of rows in the result set,
+
+window- refers to a set of rows that are somehow related to the current row 
+
+Aggregate
+---------------
+AVG(),
+MAX(),
+MIN(),
+SUM(),
+COUNT()
+
+Ranking
+-------------------
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+PERCENT_RANK()
+NTILE()
+
+Value
+------------------
+
+LAG()
+LEAD()
+FIRST_VALUE()
+LAST_VALUE()
+NTH_VALUE()
+
+----------------------------------
+

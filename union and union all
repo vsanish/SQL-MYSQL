@@ -1,0 +1,6 @@
+de duplication - removing the deplication
+
+UNION and UNION ALL   -- It should be done in Same structure of the table and done in same column name
+==========================
+UNION ALL - it gives all values by combine 
+UNION - it removes the deplicates
